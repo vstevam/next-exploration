@@ -12,6 +12,8 @@ import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import PostType from '../../types/post'
+import LayoutMain from '../../components/layout-main'
+import HeaderMenu from '../../components/header-menu'
 
 type Props = {
   post: PostType
@@ -25,9 +27,9 @@ const Post = ({ post, morePosts, preview }: Props) => {
     return <ErrorPage statusCode={404} />
   }
   return (
-    <Layout preview={preview}>
+    <LayoutMain preview={preview}>
       <Container>
-        <Header />
+        <HeaderMenu />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
@@ -35,7 +37,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
             <article className="mb-32">
               <Head>
                 <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
+                  {post.title} | {CMS_NAME}
                 </title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
@@ -50,7 +52,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
           </>
         )}
       </Container>
-    </Layout>
+    </LayoutMain>
   )
 }
 
