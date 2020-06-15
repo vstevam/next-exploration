@@ -35,3 +35,8 @@
     width: 100%;
     height:600px;
   }
+
+/* blog article  */
+article {
+    margin-top: 100px;
+}

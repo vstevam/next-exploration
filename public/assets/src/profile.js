@@ -3,16 +3,16 @@
 $(document).ready(function () {
     const profilePics = {
         0: {
-            url: './assets/images/profile/profile3_.png'
+            url: './assets/images/profile/profile3.png'
         },
         1: {
             url: './assets/images/profile/profile4.png'
         },
         2: {
-            url: './assets/images/profile/profile5_.png'
+            url: './assets/images/profile/profile5.png'
         },
         3: {
-            url: './assets/images/profile/profile6_.png'
+            url: './assets/images/profile/profile6.png'
         }
     }
 
