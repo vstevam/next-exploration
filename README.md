@@ -25,9 +25,12 @@ This blog-starter-typescript uses [Tailwind CSS](https://tailwindcss.com). To co
 
 - [x] Migration nextjs and deploy on Vercel
 - [x] First phase of blog page
-- [ ] [Convert Medium posts into markdown](https://towardsdatascience.com/converting-medium-posts-to-markdown-for-your-blog-5d6830408467)
-- [ ] Create a Portfolio
+- [ ] [Convert Medium posts into markdown automatically](https://towardsdatascience.com/converting-medium-posts-to-markdown-for-your-blog-5d6830408467)
+- [ ] Create a Portfolio Page
 - [ ] Implement a newsletter system
+- [ ] Migrate chart & timeline into react components
+- [ ] Improve css render
 
 ## Bug tracker
-- Chart/timeline on resume page
+- [x] Timeline on resume page
+- [x] Chart on resume page
