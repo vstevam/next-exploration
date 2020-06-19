@@ -29,7 +29,8 @@ This blog-starter-typescript uses [Tailwind CSS](https://tailwindcss.com). To co
 - [ ] Create a Portfolio Page
 - [ ] Implement a newsletter system
 - [ ] Migrate chart & timeline into react components
+- [ ] Improve css render
 
 ## Bug tracker
 - [x] Timeline on resume page
-- [ ] Chart on resume page
+- [x] Chart on resume page
