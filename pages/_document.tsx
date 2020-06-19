@@ -37,6 +37,8 @@ export default class MyDocument extends Document {
           <script defer src="assets/js/amcharts.js" ></script>
           <script defer src="assets/js/jquery-timeline.js" ></script>
           <script defer src="assets/src/timeline.js" ></script>
+          {/* TODO: remove this fila as you migrate the charts to react components*/}
+          <script defer src="assets/src/reload.js" ></script>
 
         </Head>
         <body className="is-preload landing">
