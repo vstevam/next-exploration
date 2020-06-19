@@ -31,5 +31,5 @@ This blog-starter-typescript uses [Tailwind CSS](https://tailwindcss.com). To co
 - [ ] Migrate chart & timeline into react components
 
 ## Bug tracker
-- [x] Chart/timeline on resume page
+- [x] Timeline on resume page
 - [ ] Chart on resume page
